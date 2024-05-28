@@ -11,7 +11,7 @@ const ProtectedRoute = () => {
 		}
 	}, [navigate, token]);
 
-	return token ? <Outlet /> : null;
+	return <Outlet />;
 };
 
 export default ProtectedRoute;
